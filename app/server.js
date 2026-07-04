@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
 
   const payload = {
     message: 'Hello!',
-    instanceId: INSTANCE_ID,
+    idInstance: INSTANCE_ID,
     hostname: os.hostname(),
     requestCount,
     path: req.url,
